@@ -1,0 +1,49 @@
+/* ==== Btn edit e delet === */
+.js_edit,
+.js_delet{
+    font-size: 1.2em;
+    font-weight: 300;
+    cursor: pointer;
+}
+.js_edit{
+    color: var(--tColorSuccess);    
+}
+.js_edit:hover {
+    color: var(--tColorSuccessHover);
+}
+.js_delet{
+    color: var(--tColorDanger);
+}
+.js_delet:hover{
+    color: var(--tColorDangerHover);
+}
+
+/* ==== Form delete ==== */
+.update_delete_form{
+    display: flex;
+    padding: 0 20px;
+}
+.update_delete_form form {
+    position: relative;
+    width: 100%;
+    padding: 0;
+    margin: 0 auto;
+    background: none;
+    border: none;
+    -webkit-border-radius: none;
+    -moz-border-radius: none;
+    border-radius: none;
+}
+.update_delete_form form button {
+    width: 40px;
+    padding: 0;
+    background: none;
+    color: none;
+    font-size: none;
+    margin-top: 0;
+    text-transform: none;
+    -webkit-border-radius: none;
+    -moz-border-radius: none;
+    border-radius: none;
+    cursor: pointer;
+}

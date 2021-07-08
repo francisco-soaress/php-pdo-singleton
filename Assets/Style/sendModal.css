@@ -1,0 +1,112 @@
+.container-modal,
+.container-success,
+.container-error,
+.container-form {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.8);
+    z-index: 99;
+    display: none;
+}
+.content-modal{
+    margin: auto;
+    width: 100%;
+    min-height: 100px;
+    position: relative;
+    padding: 150px 0;
+    float: left;
+    /* display: none; */
+}
+.content-modal p{
+    text-align: center;
+    color: #777;
+    font-weight: 300;
+    font-size: 1.2em;
+}
+.content-modal img{
+    margin: 0 auto;    
+}
+
+/* ==== */
+.content-success{
+    background: var(--tColorSuccessHover);
+    padding: 40px;
+    width: 100%;
+    max-width: 500px;
+    position: relative;
+    min-height: 20px;
+    margin: auto;
+    border: 1px solid var(--tColorSuccess);
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;   
+    text-align: center; 
+}
+.content-error {
+    background: var(--tColorDangerHover);
+    padding: 40px;
+    width: 100%;
+    max-width: 500px;
+    position: relative;
+    min-height: 20px;
+    margin: auto;
+    border: 1px solid var(--tColorDanger);
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    text-align: center;
+}
+.content-form {
+    background: var(--tColorBlueDark);
+    padding: 10px;
+    width: 100%;
+    max-width: 500px;
+    position: relative;
+    min-height: 20px;
+    margin: auto;
+    border: 1px solid #eee;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.container-success .modal-title,
+.container-error .modal-title {
+    font-size: 2em;
+    color: #fff;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+.container-success p,
+.container-error p {
+    font-size: 1.05em;
+    color: #fff;
+    font-weight: 300;
+}
+
+.modal-close{
+    position: absolute;
+    right: -15px;
+    top: -15px;
+    padding: 6px 12px;
+    background: rgba(0, 0, 0, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    -webkit-border-radius: 100px;
+    -moz-border-radius: 100px;
+    border-radius: 100px;
+
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    z-index: 9;
+}
+.modal-close:hover{
+    background: #b30b0b;
+    border: 1px solid #b30b0b;
+}
